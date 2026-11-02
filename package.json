@@ -1,0 +1,12 @@
+{
+  "name": "node-singleflight-live-coding",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test --test-timeout=2000 ./test/singleflight.test.js",
+    "test:solution": "node --test --test-timeout=2000 ./solution/singleflight.test.js"
+  }
+}
